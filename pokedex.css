@@ -1,0 +1,190 @@
+body {
+  background: -moz-linear-gradient(
+    45deg,
+    #cec9ca 0%,
+    #5d5f67 81%,
+    #c5c2c2 100%
+  );
+  background: -webkit-linear-gradient(
+    45deg,
+    #cec9ca 0%,
+    #5d5f67 81%,
+    #c5c2c2 100%
+  );
+  background: linear-gradient(45deg, #cec9ca 0%, #5d5f67 81%, #c5c2c2 100%);
+
+  font-family: rubik;
+  margin: 0px;
+}
+
+.container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+
+  align-items: center;
+  font-size: 30px;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 54px;
+}
+.bolapoke {
+  font-size: 54px;
+  justify-content: content-distribution;
+}
+.buscador {
+  text-align: center;
+}
+
+.inputBuscador {
+  padding: 12px 32px;
+  font-size: 20px;
+  border-radius: 40px;
+  text-align: center;
+  color: #5d5f67;
+ text-transform: uppercase;
+}
+
+.card {
+  margin-left: 50px;
+  background-color: #fafafa;
+  border-radius: 0px 40px 21px 0px;
+  color: #222;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  height: 450px;
+  width: 200px;
+  justify-content: space-evenly;
+}
+
+.card-title {
+  text-transform: uppercase;
+  font-size: 32px;
+  
+ 
+
+  text-transform: capitalize;
+}
+
+.card-subtitle {
+
+  color: #666;
+
+
+  font-size: 25px;
+}
+.id {
+  font-weight: lighter;
+  color: #666;
+  margin-top: 5px;
+  padding: 8px;
+  font-size: 25px;
+  margin-right: auto;
+  display: block;
+}
+.card-image {
+  width: 80%;
+  height: 50%;
+  margin-bottom: 5px;
+}
+
+#pokedex {
+  padding-inline-start: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 200px));
+  grid-gap: 50px;
+}
+.card:hover {
+  animation: bounce 0.5s linear;
+}
+@keyframes bounce {
+  20% {
+    transform: translateY(-6px);
+  }
+  40% {
+    transform: translateY(0px);
+  }
+  60% {
+    transform: translateY(-2px);
+  }
+  80% {
+    transform: translateY(-0px);
+  }
+}
+.page-main-title,
+.section-title {
+  color: #919191;
+  cursor: default;
+  font-size: 187.5%;
+  line-height: 125%;
+  text-transform: none;
+  font-family: "Flexo-Regular", arial, sans-serif;
+}
+
+.tipos {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: 7px;
+  align-items: center;
+}
+.tipo {
+  width: 15px;
+}
+
+.filtroTipos {
+  display: flex;
+  width: 80%;
+  margin: 5% 10%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.filtroTipos img {
+  width: 60px;
+}
+
+.filtroTipos img:hover {
+  width: 60px;
+}
+.divImg {
+  height: 150px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+
+  top: 50%;
+  left: 50%;
+  object-fit: cover;
+}
+.image-card {
+  width: 100%;
+  height: auto;
+}
+.buscadorPokemons {
+  font-size: 20px;
+
+  text-align: center;
+
+  color: #666;
+  text-transform: uppercase;
+}
+.base_experience,
+.card-heigth,
+.card-Weight,
+.stats,
+.abilities {
+  background-color: #ebebeb;
+
+  padding-left: 15px;
+ 
+  display: block;
+}
