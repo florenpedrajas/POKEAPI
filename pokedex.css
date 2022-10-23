@@ -25,6 +25,7 @@ body {
 
   align-items: center;
   font-size: 30px;
+  height: 300px;
 }
 
 h1 {
@@ -36,15 +37,15 @@ h1 {
   font-size: 54px;
   justify-content: content-distribution;
 }
-.buscador {
-  text-align: center;
+.search-container {
+  text-align: left;
 }
 
-.inputBuscador {
+.search-container input {
   padding: 12px 32px;
   font-size: 20px;
   border-radius: 40px;
-  text-align: center;
+  text-align: left;
   color: #5d5f67;
  text-transform: uppercase;
 }
